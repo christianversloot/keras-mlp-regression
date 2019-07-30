@@ -9,7 +9,7 @@ dataset = np.loadtxt('./chennai_reservoir_levels.csv', delimiter='|', skiprows=1
 # Shuffle dataset
 np.random.shuffle(dataset)
 
-# Separate train and test data
+# Separate features and targets
 X = dataset[:, 0:3]
 Y = dataset[:, 3]
 
